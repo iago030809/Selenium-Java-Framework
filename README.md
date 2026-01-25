@@ -77,6 +77,11 @@ You can find static reports generated in:
 * `reports/cucumber-html-reports/overview-features.html`
 * `reports/cucumber-html/cucumber.html`
 
+### 3. Reporting Sample
+Here is an example of the generated Allure Report dashboard:
+
+![Allure Report Dashboard](assets/allure-dashboard-example.png)
+
 <a name="français"></a>
 ## 🇫🇷 Français
 
@@ -144,3 +149,8 @@ mvn allure:serve
 Vous trouverez les rapports statiques générés dans :
 * `reports/cucumber-html-reports/overview-features.html`
 * `reports/cucumber-html/cucumber.html`
+* 
+### 3. Exemple de Rapport
+Voici un exemple du tableau de bord généré par Allure Report :
+
+![Allure Report Dashboard](assets/allure-dashboard-example.png)
