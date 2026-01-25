@@ -5,6 +5,10 @@ target/
 !**/src/test/**/target/
 .kotlin
 
+test-output/
+.allure/   
+.idea/
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
