@@ -1,0 +1,33 @@
+package utils;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.DataProvider;
+
+/**
+ * Main entry point for running Cucumber tests using TestNG.
+ */
+@CucumberOptions(
+        features = "src/test/resources/features",
+        glue = {"stepdefinitions", "utils"},
+        plugin = {
+                "pretty",
+                "json:reports/cucumber-json/cucumber.json",
+                "timeline:reports/cucumber-timeline-report",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        },
+        monochrome = true
+)
+public class RunTest extends AbstractTestNGCucumberTests
+{
+        /**
+         * Overrides the scenarios method to enable parallel execution
+         * @return The array of scenarios to be executed.
+         */
+        @Override
+        @DataProvider(parallel = true)
+        public Object[][] scenarios()
+        {
+                return super.scenarios();
+        }
+}
