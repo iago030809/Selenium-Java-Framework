@@ -13,7 +13,8 @@
 ## 🇺🇸 English
 
 ### 📖 Introduction
-This is a robust Test Automation Framework designed for testing web applications (currently configured for Swag Labs). It is built using **Selenium WebDriver** and **Java**, leveraging **Cucumber** for BDD and **TestNG** for orchestration.
+This is a **robust** and **parallel** Test Automation Framework (Work-in-Progress) designed for testing web applications (currently implementing scenarios for Swag Labs).
+While the core architecture (based on Selenium WebDriver, Java, Cucumber, and TestNG) is fully functional and optimized for **parallel execution**, I am actively working on expanding the test suite and adding DevOps capabilities.
 
 ### ✨ Key Features
 * **Page Object Model (POM):** Clean separation between test logic and page elements.
@@ -80,7 +81,8 @@ You can find static reports generated in:
 ## 🇫🇷 Français
 
 ### 📖 Introduction
-Ceci est un framework d'automatisation de tests robuste conçu pour les applications web (configuré pour Swag Labs). Il est construit avec Selenium WebDriver et Java, utilisant Cucumber pour le BDD et TestNG pour l'orchestration.
+Ceci est un framework d'automatisation de tests **robuste** et **parallèle** (en cours de développement), conçu pour les applications web (actuellement sur Swag Labs).
+Bien que l'architecture centrale (basée sur Selenium WebDriver, Java, Cucumber et TestNG) soit totalement fonctionnelle et optimisée pour l'**exécution parallèle**, je travaille activement à l'extension de la suite de tests et à l'ajout de capacités DevOps.
 
 ### ✨ Fonctionnalités Clés
 * **Page Object Model (POM):** Séparation claire entre la logique de test et les éléments de page.
