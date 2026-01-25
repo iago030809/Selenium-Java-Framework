@@ -2,7 +2,7 @@ package utils;
 
 import io.cucumber.java.ParameterType;
 
-public class transformer
+public class Transformer
 {
     @ParameterType("is|is not")
     public boolean isOrNot(String value)
