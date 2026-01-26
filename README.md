@@ -5,7 +5,21 @@
 [![Cucumber](https://img.shields.io/badge/Cucumber-7.33-brightgreen.svg)](https://cucumber.io/)
 [![Allure](https://img.shields.io/badge/Allure-Report-yellow.svg)](https://docs.qameta.io/allure/)
 
-[English](#english) | [Français](#français)
+<p align="center">
+  <a href="https://bout-gabouz-lemasle.github.io/Selenium-Java-Framework/allure-report/index.html">
+    <img src="https://img.shields.io/badge/Allure_Report-View_Dashboard-ff69b4?style=for-the-badge&logo=allure&logoColor=white" alt="Allure Report" />
+  </a>
+
+  <a href="https://bout-gabouz-lemasle.github.io/Selenium-Java-Framework/cucumber-html-reports/overview-features.html">
+    <img src="https://img.shields.io/badge/Cucumber_Report-View_Details-23d160?style=for-the-badge&logo=cucumber&logoColor=white" alt="Cucumber Report" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+<a href="#-english">🇬🇧 English</a> | <a href="#-français">🇫🇷 Français</a>
+</p>
 
 ---
 
