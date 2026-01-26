@@ -6,6 +6,10 @@
 [![Allure](https://img.shields.io/badge/Allure-Report-yellow.svg)](https://docs.qameta.io/allure/)
 
 <p align="center">
+  <a href="https://sonarcloud.io/summary/overall?id=Bout-Gabouz-LeMasle_Selenium-Java-Framework">
+    <img src="https://sonarcloud.io/images/project_badges/sonarcloud-light.svg" alt="Quality Gate Status"/>
+  </a>
+ <br /> <br />
   <a href="https://bout-gabouz-lemasle.github.io/Selenium-Java-Framework/allure-report/index.html">
     <img src="https://img.shields.io/badge/Allure_Report-View_Dashboard-ff69b4?style=for-the-badge&logo=allure&logoColor=white" alt="Allure Report" />
   </a>
