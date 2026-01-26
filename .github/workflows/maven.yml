@@ -66,7 +66,7 @@ jobs:
       # We force the output directory to be inside 'reports/' so it gets deployed
       - name: Generate Allure Report
         if: always()
-        run: mvn allure:report -Dallure.report.directory=reports/allure-report
+        run: mvn allure:report -Dallure.report.directory=$GITHUB_WORKSPACE/reports/allure-report
 
       # 5. Archive Reports (ZIP)
       # Useful to download the raw files if needed
