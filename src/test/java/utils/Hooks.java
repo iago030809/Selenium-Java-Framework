@@ -15,10 +15,22 @@ import java.util.stream.Collectors;
 
 public class Hooks
 {
-    @Before
+    @Before(order = 0)
     public void setup()
     {
-        WebdriverUtils.initDriver(); // Crée un driver unique pour CE thread
+        WebdriverUtils.initDriver();
+    }
+
+    @Before(order = 1)
+    public void markAsRerun(Scenario scenario)
+    {
+        String isRerun = System.getProperty("isRerun");
+
+        if ("true".equals(isRerun))
+        {
+            String fakeTag = "<b style='color: #2A9D8F; font-size: 11px;'>@rerun_attempt</b>";
+            scenario.attach(fakeTag, "text/html", "");
+        }
     }
 
     @AfterStep

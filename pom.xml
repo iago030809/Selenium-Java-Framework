@@ -107,6 +107,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
+                        <suiteXmlFile>testng-execution.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
@@ -135,8 +136,10 @@
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>
+                            <mergeFeaturesWithRetest>true</mergeFeaturesWithRetest>
                             <checkBuildResult>false</checkBuildResult>
                             <skipEmptyJSONFiles>true</skipEmptyJSONFiles>
+                            <skip>false</skip>
                         </configuration>
                     </execution>
                 </executions>
